@@ -1,0 +1,18 @@
+{
+  "name": "SP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.3",
+    "node-xlsx": "^0.21.0",
+    "pdf-parse": "^1.1.1",
+    "xlsx-populate": "^1.21.0"
+  }
+}

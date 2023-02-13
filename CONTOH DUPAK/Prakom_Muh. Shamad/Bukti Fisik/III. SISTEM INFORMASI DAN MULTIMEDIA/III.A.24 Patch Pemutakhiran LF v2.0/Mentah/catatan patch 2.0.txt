@@ -1,0 +1,16 @@
+Adapun perbaikan di patch ini adalah :
+
+-Perbaikan  rule validasi terkait beberapa keluarga sama pengelolaan makan tetapi beda blok, no telpon 10 digit, dan error terkait nama prepinted
+-Perbaikan di menu tarik sampel untuk print banyak blok sensus
+-Penyesuaian terkait menu export data dan dsrt
+-Perbaikan terkait merge dan split data
+-Perbaikan fasilitas  untuk menghapus isian pada menu entri
+-Penambahan fasilitas penandaan kolom enam tidak ditemukan (keterangan dan persiapan pada blok sensus terkait akan di email lebih lanjut)
+-Perbaikan tampilan menu master (operator dan wilayah)
+
+Catatan penarikan sampel dan export dsrt:
+
+-Sebelum finalisasi harap melakukan tarik sampel dahulu dan cek dsrt draft
+-Apabila melakukan perbaikan data setelah tarik sampel harap tarik sampel ulang
+-Finalisasi data hanya dapat dilakukan sekali
+-Harap melakukan print dsrt setelah finalisasi

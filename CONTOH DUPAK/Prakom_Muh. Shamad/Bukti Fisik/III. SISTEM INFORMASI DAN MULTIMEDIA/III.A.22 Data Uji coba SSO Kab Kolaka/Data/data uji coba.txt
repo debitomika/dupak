@@ -1,0 +1,299 @@
+/* 1 */
+{
+    "nip" : "196410301988031002",
+    "pangkat" : "Penata Tingkat I",
+    "nama" : "Arsyad Kadir",
+    "nmgol" : "III/d",
+    "nmjab" : "Kepala Bagian Umum Tata Usaha",
+    "username" : "arsyad.kadir"
+}
+
+/* 2 */
+{
+    "nip" : "196503161989021001",
+    "pangkat" : "Penata Tingkat I",
+    "nama" : "Muslimin, SP",
+    "nmjab" : "Statistisi Ahli Muda selaku Koordinator Fungsi Statistik Nerwilis",
+    "nmgol" : "III/d",
+    "username" : "muslimin"
+}
+
+/* 3 */
+{
+    "nip" : "196512312007011659",
+    "pangkat" : "Pengatur Muda",
+    "nama" : "Untung",
+    "nmjab" : "Staf Subbagian Tata Usaha",
+    "nmgol" : "II/a",
+    "username" : "untung5"
+}
+
+/* 4 */
+{
+    "nip" : "197010042006041011",
+    "pangkat" : "Penata Muda Tk. I",
+    "nama" : "Asri Samsu Alam, SE",
+    "nmjab" : "Statistisi Pelaksana Lanjutan",
+    "nmgol" : "III/b",
+    "username" : "asri.alam"
+}
+
+/* 5 */
+{
+    "nip" : "197306122009012003",
+    "pangkat" : "Penata Muda Tingkat I",
+    "nama" : "Marniati",
+    "nmjab" : "Statistisi Pelaksana Lanjutan",
+    "nmgol" : "III/b",
+    "username" : "marniati"
+}
+
+/* 6 */
+{
+    "nip" : "197409132009011005",
+    "pangkat" : "Penata Muda Tingkat I",
+    "nama" : "Sapari",
+    "nmjab" : "Statistisi Pelaksana Lanjutan",
+    "nmgol" : "III/b",
+    "username" : "sapar"
+}
+
+/* 7 */
+{
+    "nip" : "197509262009011003",
+    "pangkat" : "Penata Muda Tk. I",
+    "nama" : "Ashadi, SE",
+    "nmjab" : "Statistisi Penyelia",
+    "nmgol" : "III/b",
+    "username" : "ashadi"
+}
+
+/* 8 */
+{
+    "nip" : "197510102009012006",
+    "pangkat" : "Penata Muda Tingkat I",
+    "nama" : "Hasnawati P.",
+    "nmjab" : "Statistisi Pelaksana Lanjutan",
+    "nmgol" : "III/b",
+    "username" : "hasnawati"
+}
+
+/* 9 */
+{
+    "nip" : "197606092011011006",
+    "pangkat" : "Penata Muda Tingkat I",
+    "nama" : "Amrullah, SE",
+    "nmjab" : "KSK",
+    "nmgol" : "III/b",
+    "username" : "55488"
+}
+
+/* 10 */
+{
+    "nip" : "197709262000121001",
+    "pangkat" : "Pembina Tingkat I",
+    "nama" : "Ade Ida Mane, SST, M.Si",
+    "nmjab" : "Kepala BPS Kab. Kolaka",
+    "nmgol" : "IV/b",
+    "username" : "aim"
+}
+
+/* 11 */
+{
+    "nip" : "197712102009111001",
+    "pangkat" : "Penata Muda",
+    "nama" : "Muhamad Hasdi, SE",
+    "nmgol" : "III/a",
+    "nmjab" : "Fungsional Umum",
+    "username" : "hasdi"
+}
+
+/* 12 */
+{
+    "nip" : "197803262009111001",
+    "pangkat" : "Penata Muda",
+    "nama" : "Sanur Saprah, SE",
+    "nmjab" : "Fungsional Umum",
+    "nmgol" : "III/a",
+    "username" : "sanur.saprah"
+}
+
+/* 13 */
+{
+    "nip" : "197907182006041005",
+    "pangkat" : "Penata Muda",
+    "nama" : "Alim Bakhri, SE",
+    "nmjab" : "Bendahara BPS Kolaka",
+    "nmgol" : "III/a",
+    "username" : "alim"
+}
+
+/* 14 */
+{
+    "nip" : "198102272010031002",
+    "pangkat" : "Penata",
+    "nama" : "Ma'ruf, S.P",
+    "nmgol" : "III/c",
+    "nmjab" : "Statistisi Ahli Muda selaku Koordinator Fungsi Statistik Sosial",
+    "username" : "maruf"
+}
+
+/* 15 */
+{
+    "nip" : "198204062009011008",
+    "pangkat" : "Penata Muda Tingkat I",
+    "nama" : "Idhar Rahim",
+    "nmjab" : "Statistisi Pelaksana Lanjutan",
+    "nmgol" : "III/b",
+    "username" : "idhar.rahim"
+}
+
+/* 16 */
+{
+    "nip" : "198610302009021001",
+    "pangkat" : "Penata Tingkat I",
+    "nama" : "Rietmianggara Yudha Candra, SST",
+    "nmjab" : "Kepala Seksi Integrasi Pengolahan dan Diseminasi Statistik",
+    "nmgol" : "III/d",
+    "username" : "rietmi"
+}
+
+/* 17 */
+{
+    "nip" : "199012162014102001",
+    "pangkat" : "Penata",
+    "nama" : "Suci Safitriani, SST",
+    "nmgol" : "III/c",
+    "nmjab" : "Pranata Komputer Ahli Muda selaku Koordinator Fungsi IPDS",
+    "username" : "safitriani"
+}
+
+/* 18 */
+{
+    "nip" : "199104182014102001",
+    "pangkat" : "Penata Muda Tingkat I",
+    "nama" : "Fitri Permata Sari, SST",
+    "nmgol" : "III/b",
+    "nmjab" : "Statistisi Ahli Pertama",
+    "username" : "fitri"
+}
+
+/* 19 */
+{
+    "nip" : "199107102013111001",
+    "pangkat" : "Penata",
+    "nama" : "Agung Darwin, SST",
+    "nmjab" : "Statistisi Ahli Muda selaku Koordinator Fungsi Statistik Produksi",
+    "nmgol" : "III/c",
+    "username" : "adarwin"
+}
+
+/* 20 */
+{
+    "nip" : "199306162016021002",
+    "pangkat" : "Penata Muda",
+    "nama" : "Bakri Malik Ahmad Ismael, SST",
+    "nmgol" : "III/a",
+    "nmjab" : "Staf Seksi Neraca Wilayah dan Analisis Statistik",
+    "username" : "bakri.malik"
+}
+
+/* 21 */
+{
+    "nip" : "199306192016022001",
+    "pangkat" : "Penata Muda Tingkat 1",
+    "nama" : "Yunita Nur Khasanah, SST",
+    "nmjab" : "Statistisi Ahli Muda selaku Koordinator Fungsi Statistik Distribusi",
+    "nmgol" : "III/b",
+    "username" : "yyy"
+}
+
+/* 22 */
+{
+    "nip" : "199311062017011001",
+    "pangkat" : "Penata Muda Tk. I",
+    "nama" : "Zulfikar Halim Lumintang, SST",
+    "nmjab" : "Statistisi Ahli Muda",
+    "nmgol" : "III/b",
+    "username" : "zulfikar.lumintang"
+}
+
+/* 23 */
+{
+    "nip" : "199402242018021001",
+    "pangkat" : "Penata Muda",
+    "nama" : "Muh. Shamad, SST",
+    "nmjab" : "Pranata Komputer Ahli Pertama",
+    "nmgol" : "III/a",
+    "username" : "ms"
+}
+
+/* 24 */
+{
+    "nip" : "199402242018022001",
+    "pangkat" : "Penata Muda",
+    "nama" : "Menpan",
+    "nmgol" : "IV/c",
+    "nmjab" : "Koordinator TU Bagian Umum",
+    "username" : "menpan"
+}
+
+/* 25 */
+{
+    "nip" : "199409032017011001",
+    "pangkat" : "Penata Muda",
+    "nama" : "Naufal Fahmi Zakiuddin, SST",
+    "nmjab" : "Staf Seksi Statistik Produksi",
+    "nmgol" : "III/a",
+    "username" : "zakiuddin"
+}
+
+/* 26 */
+{
+    "nip" : "199409142017012001",
+    "pangkat" : "Penata Muda Tingkat 1",
+    "nama" : "Dyah Tari Nur'aini, SST",
+    "nmgol" : "III/b",
+    "nmjab" : "Statistisi Ahli Pertama",
+    "username" : "dyah"
+}
+
+/* 27 */
+{
+    "nip" : "199605282019011001",
+    "pangkat" : "Penata Muda",
+    "nama" : "Faiq Fajar Pujiadhi, S.Tr.Stat.",
+    "nmgol" : "III/a",
+    "nmjab" : "Statistisi Ahli Pertama",
+    "username" : "faiq"
+}
+
+/* 28 */
+{
+    "nip" : "199710052019122001",
+    "pangkat" : "Penata Muda",
+    "nama" : "Erni Octaviani, S.Tr.Stat.",
+    "nmgol" : "III/a",
+    "nmjab" : "Statistisi Ahli Pertama",
+    "username" : "erni"
+}
+
+/* 29 */
+{
+    "nip" : "199901112021041001",
+    "pangkat" : "Penata Muda",
+    "nama" : "Muhammad Farhan Robbani S.Tr.Stat.",
+    "nmgol" : "III/a",
+    "nmjab" : "Fungsional Umum",
+    "username" : "farhan"
+}
+
+/* 30 */
+{
+    "nip" : "199905042021041001",
+    "pangkat" : "Penata Muda",
+    "nama" : "Fikron Tanazzul Ahsani S.Tr.Stat.",
+    "nmgol" : "III/a",
+    "nmjab" : "Fungsional Umum",
+    "username" : "fikron"
+}

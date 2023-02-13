@@ -1,0 +1,4 @@
+keyboard tdk ori: acer
+mouse tdk ada
+wifi ext
+agak lambat
