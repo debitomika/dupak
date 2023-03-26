@@ -1,0 +1,59 @@
+FUNCTION __construct():
+    CALL parent::__construct()
+    CALL load->model(['config_model', 'wilayah_model', 'pamong_model'])
+    modul_ini = 200
+    sub_modul_ini = 17
+
+FUNCTION index():
+    data['main'] = CALL config_model->get_data()
+    data['desa'] = UPPERCASE_FIRST(setting->sebutan_desa)
+    data['kecamatan'] = UPPERCASE_FIRST(setting->sebutan_kecamatan)
+    data['kabupaten'] = UPPERCASE_FIRST(setting->sebutan_kabupaten)
+    CALL render('identitas_desa/index', data)
+
+FUNCTION form():
+    data['main'] = CALL config_model->get_data()
+    data['desa'] = UPPERCASE_FIRST(setting->sebutan_desa)
+    data['kecamatan'] = UPPERCASE_FIRST(setting->sebutan_kecamatan)
+    data['kabupaten'] = UPPERCASE_FIRST(setting->sebutan_kabupaten)
+    data['pamong'] = CALL pamong_model->list_data()
+    session->kades_lama = data['main']['pamong_id']
+    IF data['main'] IS NOT NULL THEN
+        data['form_action'] = site_url('identitas_desa/update/' . data['main']['id'])
+    ELSE
+        data['form_action'] = site_url('identitas_desa/insert')
+    CALL render('identitas_desa/form', data)
+
+FUNCTION insert():
+    CALL config_model->insert()
+    CALL redirect('identitas_desa')
+
+FUNCTION update(id = 0):
+    CALL config_model->update(id)
+    CALL redirect('identitas_desa')
+
+FUNCTION maps(tipe = 'kantor'):
+    data_desa = CALL config_model->get_data()
+    data['desa'] = CALL config_model->get_data()
+    data['wil_ini'] = data_desa
+    data['wil_atas']['lat'] = -1.0546279422758742
+    data['wil_atas']['lng'] = 116.71875000000001
+    data['wil_atas']['zoom'] = 4
+    data['wil_atas'] = CALL config_model->get_data()
+    data['dusun_gis'] = CALL wilayah_model->list_dusun()
+    data['rw_gis'] = CALL wilayah_model->list_rw()
+    data['rt_gis'] = CALL wilayah_model->list_rt()
+    data['nama_wilayah'] = UPPERCASE_FIRST(setting->sebutan_desa . " " . data_desa['nama_desa'])
+    data['wilayah'] = UPPERCASE_FIRST(setting->sebutan_desa . " " . data_desa['nama_desa'])
+    data['breadcrumb'] = ARRAY(
+        ARRAY('link' => site_url("identitas_desa"), 'judul' => "Identitas " . UPPERCASE_FIRST(setting->sebutan_desa)),
+    )
+    data['form_action'] = site_url("identitas_desa/update_maps/" . tipe)
+    CALL render('sid/wilayah/maps_' . tipe, data)
+
+FUNCTION update_maps(tipe = 'kantor'):
+    IF tipe = 'kantor' THEN
+        CALL config_model->update_kantor()
+    ELSE
+        CALL config_model->update_wilayah()
+    CALL redirect("identitas_desa")
